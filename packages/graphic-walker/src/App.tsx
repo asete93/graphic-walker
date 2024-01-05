@@ -264,6 +264,7 @@ export function VizAppWithContext(props: IVizAppProps) {
         <div className={`${darkMode === 'dark' ? 'dark' : ''} App font-sans bg-white dark:bg-zinc-900 dark:text-white m-0 p-0`}>
             <VizStoreWrapper onMetaChange={onMetaChange} meta={safeMetas} keepAlive={props.keepAlive} storeRef={props.storeRef}>
                 <FieldsContextWrapper>
+                    <h1>aksjdhkjsadhsajkhd@@@@@@</h1>
                     <VizApp
                         darkMode={darkMode}
                         enhanceAPI={props.enhanceAPI}
